@@ -1,7 +1,9 @@
-h3{
-    color: blue;
-    background-color: black;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 70px;
-    text-align: center;
+h1 {
+    animation: transition-title 1s linear;
+}
+
+@keyframes transition-title {
+    0% {
+        transform: translateY(-100px);
+    }
 }
